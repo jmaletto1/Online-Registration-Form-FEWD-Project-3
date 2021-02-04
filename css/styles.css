@@ -166,6 +166,10 @@ input[type="radio"] {
   margin-top: 20px;
 }
 
+option[value="default"] {
+  color: white;
+}
+
 /* Id Selectors */
 #copyright {
   margin-top: 20px;
@@ -223,13 +227,15 @@ input[type="radio"] {
 
   label {
     width: 30%;
+    height: 40px;
+    padding: 1px;
+    margin: 7px 0 15px;
   }
 
   input,
   select {
     margin-left: 20px;
     width: 70%;
-    align-items: flex-end;
   }
 
   body {
@@ -245,5 +251,9 @@ input[type="radio"] {
   .main-body,
   .main-form {
     background-color: white;
+  }
+
+  .main-row {
+    display: flex;
   }
 }
