@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <header>
+    <div class="main-head">
+      <h1>THE CODE REVIEW</h1>
+    </div>
+  </header>
+  <body>
+    <div class="main-body">
+      <div class="sign-up-header">
+        <h2>Sign Up For Our Newsletter</h2>
+      </div>
+        <p class="news-label">
+          Get the latest news on how your code is performing straight to your
+          inbox!
+        </p>
+        <div class="form-border"></div>
+        <div class="skinny-form-border"></div>
+    </div>
+    <div class="main-form">
+      <form action="#">
+        <fieldset class="form_pt_1">
+          <legend>Contact Information</legend>
+          <div class="row">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" placeholder="Required" required>
+        </div>
+
+        <div class="row">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Required" required>
+        </div>
+
+        <div class="row">
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" placeholder="07700-077070">
+        </div>
+        
+        <div class="row">
+          <label for="address">Street Address</label>
+          <input type="text" name="address" id="address" placeholder="Your street name">
+        </div>
+
+        <div class="row">
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" placeholder="Your city">
+        </div>
+
+        <div class="row">
+          <label for="state">State</label>
+          <select name="state" id="state" class="select">
+              <option value="default">Please Select a State</option>
+              <option value="london">London</option>
+              <option value="hertfordshire">Hertfordshire</option>
+              <option value="manchester">Manchester</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label for="zip">Zip Code</label><div></div>
+          <input type="text" name="zip" id="zip" class="zip" placeholder="Your Post/Zip Code">
+        </div>
+
+        </fieldset>
+        <div class="mid-form-border"></div>
+        <fieldset>
+          <legend>Newsletter</legend>
+            <div class="newsletter">
+              <div class="row"><p>Select the newsletters you would like to receive:</p></div>
+              <div class="row">
+                <input type="checkbox" id="html-news" name="html-news" value="HTML News">
+                <label for="html-news">HTML News</label>
+              </div>  
+              <div class="row">
+                <input type="checkbox" id="css-news" name="css-news" value="CSS News">
+                <label for="css-news">CSS News</label>
+              <div class="row">
+                <input type="checkbox" id="javascript-news" name="javascript-news" value="Javascript News">
+                <label for="javascript-news">Javascript News</label>
+                <div class="row"><p class="newsletter-format">Newsletter format:</p></div>
+                <div class="row">
+                  <input type="radio" id="html" name="radio" value="html">
+                  <label for="html">HTML</label>
+                </row>
+                <div class="row">
+                  <input type="radio" id="plain-text" name="radio" value="plain-text">
+                  <label for="plain-text">Plain text</label>
+                </div>
+                <div class="row added-margin">
+                  <label for="other-topics"><p>Other topics you'd like to hear about:</p></label>
+                  <textarea name="other-topics" id="other-topics" cols="30" rows="10" placeholder="Your thoughts here!"></textarea>
+                </div>
+                <div class="row">
+                  <button type="submit" id="button">Sign Up</button>
+                </div>
+                <div class="row" id="copyright"><p>&copy; The Code Review</p></div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+        </div>
+
+    </div>
+  </body>
+</html>
