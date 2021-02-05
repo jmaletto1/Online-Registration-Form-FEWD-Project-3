@@ -3,7 +3,18 @@
   margin: 0;
 }
 
+label {
+  font-family: "Slabo 27px", serif;
+}
+
+h2,
+legend {
+  color: #2d3945;
+  font-family: "Playfair Display", serif;
+}
+
 h1 {
+  font-family: "EB Garamond", serif;
   text-align: center;
   color: white;
   padding: 35px 70px;
@@ -11,7 +22,6 @@ h1 {
 }
 
 h2 {
-  color: #2d3945;
   margin-top: 35px;
 }
 
@@ -21,7 +31,6 @@ p {
 }
 
 legend {
-  color: #2d3945;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: left;
@@ -118,7 +127,7 @@ input[type="radio"] {
 .news-label {
   margin: 5px 60px 25px;
   text-align: center;
-  color: lightgrey;
+  color: rgb(162, 160, 160);
 }
 
 .form-border {
@@ -211,6 +220,10 @@ option[value="default"] {
     margin-right: 0;
   }
 
+  h1 {
+    font-size: 2rem;
+  }
+
   h2 {
     margin-top: 60px;
   }
@@ -228,8 +241,8 @@ option[value="default"] {
   label {
     width: 30%;
     height: 40px;
-    padding: 1px;
-    margin: 7px 0 15px;
+    padding: 6px 0;
+    margin: 9px 0 15px;
   }
 
   input,
